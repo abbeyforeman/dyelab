@@ -1,0 +1,196 @@
+@import url("https://use.typekit.net/mhs5hsg.css");
+
+.top-wrapper {
+  position: fixed;
+  z-index: 99;
+  height: 150px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 2.5vh 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #eeede9;
+  background: linear-gradient(180deg, white 0%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, 0) 100%);
+}
+
+#about {
+  position: fixed; /* Fixed position to keep it in the viewport */
+  top: 50%; /* Position it vertically at the middle of the viewport */
+  left: 50%; /* Position it horizontally at the middle of the viewport */
+  transform: translate(-50%, -50%); /* Center the element */
+  width: 100%; /* Adjust the width as needed */
+  max-width: 600px; /* Set maximum width to avoid stretching too much */
+  overflow-x: hidden;
+  padding: 2em;
+  padding-top: 10px;
+  background: white;
+  z-index: 99;
+  display: none;
+}
+
+#about h1 {
+  font-size: 1.25em;
+  font-weight: normal;
+  font-family: "kepler-std", serif;
+}
+#about p {
+  max-width: 700px;
+  line-height: 100%;
+  margin: 5;
+  padding: 0;
+  font-weight: normal;
+  width: 100%;
+  font-family: "kepler-std", serif;
+font-weight: 300;
+  font-size: 1em;
+}
+
+#about a {
+  font-style: italic;
+  color: #5c7345;
+}
+
+
+.bottom-wrapper {
+  position: fixed;
+  z-index: 99;
+  height: 80px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 1vh 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: white;
+}
+
+#title-bottom h4 {
+  line-height: 100%;
+  margin: 5;
+  padding: 0;
+  font-weight: normal;
+  width: 100%;
+  font-family: "kepler-std", serif;
+font-weight: 300;
+font-style: italic;
+}
+
+#title-bottom label {
+  line-height: 100%;
+  margin: 5;
+  padding: 0;
+  font-weight: normal;
+  width: 100%;
+  font-family: "kepler-std", serif;
+font-weight: 300;
+}
+
+#title-bottom select {
+  line-height: 100%;
+  margin: 5;
+  padding: 0;
+  font-style: italic;
+  font-weight: normal;
+  font-family: "kepler-std", serif;
+font-weight: 300;
+}
+
+#title-about h1 {
+  line-height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 3em;
+  justify-content: space-between;
+  font-family: "kepler-std", serif;
+font-weight: 300;
+font-style: normal;
+}
+
+#title-about h5 {
+  line-height: 100%;
+  margin: 5;
+  padding: 0;
+  font-weight: normal;
+  width: 100%;
+  font-family: "kepler-std", serif;
+font-weight: 300;
+font-style: italic;
+}
+
+#content h3 {
+  line-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  width: 100%;
+  display: flex;
+  font-family: "kepler-std", serif;
+  font-weight: 300;
+  font-style: normal;
+  position: center;
+}
+
+#content img {
+  padding: 5px;
+  width: 140px;
+  line-height: 50px;
+}
+
+#content p1 {
+  line-height: 150%;
+  margin: 0px;
+  padding: 0;
+  font-weight: normal;
+  width: 100%;
+  display: flex;
+  font-family: "kepler-std", serif;
+  font-weight: 300;
+  font-style: italic;
+  color: gray;
+  display: inline-block;
+}
+
+#content p2{
+  line-height: 100%;
+  margin: 0px;
+  padding: 0;
+  font-weight: normal;
+  width: 100%;
+  display: flex;
+  font-family: "kepler-std", serif;
+  font-weight: 300;
+  font-style: italic;
+  color: gray;
+  display: inline-block;
+}
+
+#content p3{
+  line-height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+  width: 100%;
+  display: flex;
+  font-family: "kepler-std", serif;
+  font-weight: 300;
+  font-style: italic; 
+  color: gray;
+}
+
+item {
+  padding: 100px;
+  position: center;
+}
+
+#content{
+  padding: 100px;
+  display: center;
+}
+
+
+
+
